@@ -1,0 +1,25 @@
+module RF (DATA_READ1, DATA_READ2, ADDRESS_READ1, ADDRESS_READ2, WRITE_ENABLE, ADDRESS_WRITE, DATA_WRITE, CLK, RESET);
+  
+  output [31 : 0] DATA_READ1, DATA_READ2;
+  input [4 : 0] ADDRESS_READ1, ADDRESS_READ2, ADDRESS_WRITE;
+  input [31 : 0] DATA_WRITE;
+  input WRITE_ENABLE, CLK, RESET;
+  
+  reg [31 : 0] RegisterFile [0 : 31];
+  integer i;
+  
+  assign DATA_READ1 = RegisterFile [ADDRESS_READ1];
+  assign DATA_READ2 = RegisterFile [ADDRESS_READ2];
+  
+  always @(posedge CLK or posedge RESET)
+  RegisterFile[0] = 32'b00000000000000000000000000000000;
+  RegisterFile[1] = 32'b00000000000000000000000000000001;
+  RegisterFile[2] = 32'b00000000000000000000000000000010;
+    if (RESET)
+      for (i = 3; i < 32; i = i + 1)
+        RegisterFile [i] = 0;
+    else  if (WRITE_ENABLE)
+      RegisterFile [ADDRESS_WRITE] = DATA_WRITE;
+	
+endmodule
+

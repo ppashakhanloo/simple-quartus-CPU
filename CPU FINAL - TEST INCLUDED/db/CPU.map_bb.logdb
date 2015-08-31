@@ -1,0 +1,2 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,ALU:ALU|lpm_mult:Mult0|mult_b011:auto_generated|mac_out5,

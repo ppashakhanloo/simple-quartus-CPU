@@ -1,0 +1,380 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 184 368)
+	(text "CU" (rect 5 0 21 12)(font "Arial" ))
+	(text "inst" (rect 8 336 25 348)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "reset" (rect 0 0 24 12)(font "Arial" ))
+		(text "reset" (rect 21 27 45 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clock" (rect 0 0 25 12)(font "Arial" ))
+		(text "clock" (rect 21 43 46 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "OP_4" (rect 0 0 27 12)(font "Arial" ))
+		(text "OP_4" (rect 21 59 48 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "OP_3" (rect 0 0 27 12)(font "Arial" ))
+		(text "OP_3" (rect 21 75 48 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "OP_2" (rect 0 0 27 12)(font "Arial" ))
+		(text "OP_2" (rect 21 91 48 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "OP_1" (rect 0 0 27 12)(font "Arial" ))
+		(text "OP_1" (rect 21 107 48 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "OP_0" (rect 0 0 27 12)(font "Arial" ))
+		(text "OP_0" (rect 21 123 48 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "COUNT_ENABLE" (rect 0 0 87 12)(font "Arial" ))
+		(text "COUNT_ENABLE" (rect 60 27 147 39)(font "Arial" ))
+		(line (pt 168 32)(pt 152 32)(line_width 1))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "SEL_LOAD_PC_1" (rect 0 0 88 12)(font "Arial" ))
+		(text "SEL_LOAD_PC_1" (rect 59 43 147 55)(font "Arial" ))
+		(line (pt 168 48)(pt 152 48)(line_width 1))
+	)
+	(port
+		(pt 168 64)
+		(output)
+		(text "SEL_LOAD_PC_0" (rect 0 0 88 12)(font "Arial" ))
+		(text "SEL_LOAD_PC_0" (rect 59 59 147 71)(font "Arial" ))
+		(line (pt 168 64)(pt 152 64)(line_width 1))
+	)
+	(port
+		(pt 168 80)
+		(output)
+		(text "IR_ENABLE" (rect 0 0 60 12)(font "Arial" ))
+		(text "IR_ENABLE" (rect 87 75 147 87)(font "Arial" ))
+		(line (pt 168 80)(pt 152 80)(line_width 1))
+	)
+	(port
+		(pt 168 96)
+		(output)
+		(text "SEL_AW_RF" (rect 0 0 64 12)(font "Arial" ))
+		(text "SEL_AW_RF" (rect 83 91 147 103)(font "Arial" ))
+		(line (pt 168 96)(pt 152 96)(line_width 1))
+	)
+	(port
+		(pt 168 112)
+		(output)
+		(text "SEL_DW_RF_1" (rect 0 0 77 12)(font "Arial" ))
+		(text "SEL_DW_RF_1" (rect 70 107 147 119)(font "Arial" ))
+		(line (pt 168 112)(pt 152 112)(line_width 1))
+	)
+	(port
+		(pt 168 128)
+		(output)
+		(text "SEL_DW_RF_0" (rect 0 0 77 12)(font "Arial" ))
+		(text "SEL_DW_RF_0" (rect 70 123 147 135)(font "Arial" ))
+		(line (pt 168 128)(pt 152 128)(line_width 1))
+	)
+	(port
+		(pt 168 144)
+		(output)
+		(text "WE_RF" (rect 0 0 38 12)(font "Arial" ))
+		(text "WE_RF" (rect 109 139 147 151)(font "Arial" ))
+		(line (pt 168 144)(pt 152 144)(line_width 1))
+	)
+	(port
+		(pt 168 160)
+		(output)
+		(text "SEL_IMM" (rect 0 0 46 12)(font "Arial" ))
+		(text "SEL_IMM" (rect 101 155 147 167)(font "Arial" ))
+		(line (pt 168 160)(pt 152 160)(line_width 1))
+	)
+	(port
+		(pt 168 176)
+		(output)
+		(text "SEL_INP1" (rect 0 0 50 12)(font "Arial" ))
+		(text "SEL_INP1" (rect 97 171 147 183)(font "Arial" ))
+		(line (pt 168 176)(pt 152 176)(line_width 1))
+	)
+	(port
+		(pt 168 192)
+		(output)
+		(text "SEL_INP2" (rect 0 0 50 12)(font "Arial" ))
+		(text "SEL_INP2" (rect 97 187 147 199)(font "Arial" ))
+		(line (pt 168 192)(pt 152 192)(line_width 1))
+	)
+	(port
+		(pt 168 208)
+		(output)
+		(text "SEL_ALU_3" (rect 0 0 59 12)(font "Arial" ))
+		(text "SEL_ALU_3" (rect 88 203 147 215)(font "Arial" ))
+		(line (pt 168 208)(pt 152 208)(line_width 1))
+	)
+	(port
+		(pt 168 224)
+		(output)
+		(text "SEL_ALU_2" (rect 0 0 59 12)(font "Arial" ))
+		(text "SEL_ALU_2" (rect 88 219 147 231)(font "Arial" ))
+		(line (pt 168 224)(pt 152 224)(line_width 1))
+	)
+	(port
+		(pt 168 240)
+		(output)
+		(text "SEL_ALU_1" (rect 0 0 59 12)(font "Arial" ))
+		(text "SEL_ALU_1" (rect 88 235 147 247)(font "Arial" ))
+		(line (pt 168 240)(pt 152 240)(line_width 1))
+	)
+	(port
+		(pt 168 256)
+		(output)
+		(text "SEL_ALU_0" (rect 0 0 59 12)(font "Arial" ))
+		(text "SEL_ALU_0" (rect 88 251 147 263)(font "Arial" ))
+		(line (pt 168 256)(pt 152 256)(line_width 1))
+	)
+	(port
+		(pt 168 272)
+		(output)
+		(text "WE_RAM" (rect 0 0 47 12)(font "Arial" ))
+		(text "WE_RAM" (rect 100 267 147 279)(font "Arial" ))
+		(line (pt 168 272)(pt 152 272)(line_width 1))
+	)
+	(port
+		(pt 168 288)
+		(output)
+		(text "SEL_AR_RAM" (rect 0 0 70 12)(font "Arial" ))
+		(text "SEL_AR_RAM" (rect 77 283 147 295)(font "Arial" ))
+		(line (pt 168 288)(pt 152 288)(line_width 1))
+	)
+	(port
+		(pt 168 304)
+		(output)
+		(text "SEL_AR2_RF" (rect 0 0 68 12)(font "Arial" ))
+		(text "SEL_AR2_RF" (rect 79 299 147 311)(font "Arial" ))
+		(line (pt 168 304)(pt 152 304)(line_width 1))
+	)
+	(parameter
+		"FETCH"
+		"0"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"ADD"
+		"1"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SUB"
+		"2"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MUL"
+		"3"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DIV"
+		"4"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOD_M"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MAX"
+		"6"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MIN"
+		"7"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"NOT_M"
+		"8"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"NAND_M"
+		"9"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"NOR_M"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"XNOR_M"
+		"11"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SHL"
+		"12"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SHRA"
+		"13"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"ROL_M"
+		"14"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"ROR_M"
+		"15"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"LDI"
+		"16"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"ADDI"
+		"17"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SUBI"
+		"18"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MULI"
+		"19"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DIVI"
+		"20"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"NANDI"
+		"21"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"NORI"
+		"22"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"XNORI"
+		"23"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOV"
+		"24"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SWP_0"
+		"25"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SWP_1"
+		"26"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SWP_2"
+		"27"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"LD"
+		"28"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"STR"
+		"29"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"JMP"
+		"30"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEQ"
+		"31"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BLT"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"HLT"
+		"33"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SHRL"
+		"34"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 152 336)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 184 -64 284 16))
+)

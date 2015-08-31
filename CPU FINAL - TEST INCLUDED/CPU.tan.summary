@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.254 ns
+From           : CU:inst16|fstate.ADD
+To             : data_out_ALU[24]
+From Clock     : CLOCK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLOCK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 310.75 MHz ( period = 3.218 ns )
+From           : CU:inst16|fstate.ADD
+To             : RF:RegisterFile|RegisterFile[2][13]
+From Clock     : CLOCK
+To Clock       : CLOCK
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

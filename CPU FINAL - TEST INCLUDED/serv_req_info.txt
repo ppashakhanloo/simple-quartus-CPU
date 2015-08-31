@@ -1,0 +1,79 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x28746867:
+	0x0eb998b0: edt_sme + 0x198b0 (??0SME_COMPILE_GENERATOR@@QAE@XZ + 0xcc60)
+	</callstack>
+	<error>Current editor: , WED, GED</error>
+	<date>Tue Jun 10 03:25:33 2014</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition</version>
+	<full_error>Access Violation at 0X28746867
+Current editor: , WED, GED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x28746867:
+	0x0c9c98b0: edt_sme + 0x198b0 (??0SME_COMPILE_GENERATOR@@QAE@XZ + 0xcc60)
+	</callstack>
+	<error>Access Violation at 0X28746867</error>
+	<date>Tue Jun 10 03:33:49 2014</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition</version>
+	<full_error>Access Violation at 0X28746867
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>SME</sub_system>
+	<file>/quartus/edt/sme/sme_common.h</file>
+	<line>631</line>
+	<callstack>
+	0x0c6e52b7: edt_sme + 0x652b7 (??1SME_COMPILE_GENERATOR@@QAE@XZ + 0x1ad07)
+	0x0c6e598b: edt_sme + 0x6598b (??1SME_COMPILE_GENERATOR@@QAE@XZ + 0x1b3db)
+	0x0c6e5cb8: edt_sme + 0x65cb8 (??1SME_COMPILE_GENERATOR@@QAE@XZ + 0x1b708)
+	0x0c6eaf41: edt_sme + 0x6af41 (??1CxIOFile@@UAE@XZ + 0x3561)
+	</callstack>
+	<error>No intersection found</error>
+	<date>Tue Jun 10 03:37:26 2014</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition</version>
+	<full_error>No intersection found
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x28746867:
+	0x09b11d3c: edt_sme + 0x51d3c (??1SME_COMPILE_GENERATOR@@QAE@XZ + 0x778c)
+	0x75743ad2: MSCTF + 0x3ad2 (TF_Notify + 0xb5)
+	0x766e8101: USER32 + 0x18101 (GetUserObjectInformationW + 0x99)
+	0x766e80a8: USER32 + 0x180a8 (GetUserObjectInformationW + 0x40)
+	0x00684b0d: ccl_mem + 0x4b0d (?splay_heap@MEM_SEGMENT_INTERNAL@@AAIPAVMEM_MEGA_PAGE@@PAX@Z + 0x14d)
+	0x0068a128: ccl_mem + 0xa128 (?mem_realloc_wrapper@@YIPAXPAXIPAVMEM_TRACKER_THUNK@@PBD@Z + 0x188)
+	0x00681cac: ccl_mem + 0x1cac (?mem_delete_wrapper@@YIXPAXPAPBD@Z + 0x2c)
+	0x09b2c7cb: edt_sme + 0x6c7cb (??1CxIOFile@@UAE@XZ + 0x4deb)
+	0x09b12791: edt_sme + 0x52791 (??1SME_COMPILE_GENERATOR@@QAE@XZ + 0x81e1)
+	0x09b2af41: edt_sme + 0x6af41 (??1CxIOFile@@UAE@XZ + 0x3561)
+	0x09b28f81: edt_sme + 0x68f81 (??1CxIOFile@@UAE@XZ + 0x15a1)
+	0x6f30beb2: mfc90 + 0x5beb2
+	</callstack>
+	<error>Current editor: , STED, GED</error>
+	<date>Fri Jun 13 10:33:42 2014</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition</version>
+	<full_error>Access Violation at 0X28746867
+Current editor: , STED, GED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition </full_error>
+</internal_error>
+
